@@ -25,3 +25,51 @@ input,
 button {
     font: inherit;
 }
+
+.h1 {
+    font-family: var(--popp);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    @media only screen and (min-width: 1150px) {
+        font-size: 48px;
+        line-height: 72px;
+    }
+}
+
+.u-h1-mb-24px {
+    margin-bottom: 24px;
+
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 26px;
+    }
+}
+
+.p {
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    max-width: 600px;
+    margin: 0 auto;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.u-p-mb-48px {
+    margin-bottom: 48px;
+
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 49px;
+    }
+}
