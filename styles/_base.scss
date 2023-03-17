@@ -1,0 +1,27 @@
+:root {
+    --sans: 'Open Sans', sans-serif;
+    --popp: 'Poppins', sans-serif;
+
+    --color-white: hsla(0, 0%, 100%, 1);
+    --color-pink: hsl(322, 100%, 66%);
+    --color-light-link: hsl(321, 100%, 78%);
+    --color-light-red: hsl(0, 100%, 63%);
+    --color-dark-cyan: hsl(192, 100%, 9%);
+    --color-pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+input,
+button {
+    font: inherit;
+}
