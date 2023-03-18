@@ -8,6 +8,7 @@
     --color-light-red: hsl(0, 100%, 63%);
     --color-dark-cyan: hsl(192, 100%, 9%);
     --color-pale-blue: hsl(207, 100%, 98%);
+    --color-gray: hsla(208, 12%, 55%, 1);
 }
 
 * {
@@ -25,6 +26,8 @@ input,
 button {
     font: inherit;
 }
+
+// .main {}
 
 .h1 {
     font-family: var(--popp);
