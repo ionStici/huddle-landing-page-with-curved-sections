@@ -503,4 +503,116 @@ button {
   }
 }
 
+.user {
+  text-align: center;
+  background-color: var(--color-pale-blue);
+}
+@media only screen and (min-width: 1150px) {
+  .user {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+.user__bg-top, .user__bg-bottom {
+  width: 100%;
+  display: flex;
+}
+@media only screen and (min-width: 1150px) {
+  .user__bg-top, .user__bg-bottom {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+.user__bg-bottom {
+  margin-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .user__bg-bottom {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .user__bg-bottom {
+    margin-bottom: 145px;
+  }
+}
+.user__wrapper {
+  padding: 24px 0 100px 0;
+}
+@media only screen and (min-width: 768px) {
+  .user__wrapper {
+    padding: 0 0 50px 0;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .user__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+}
+.user__img-wrapper {
+  max-width: 642px;
+  margin: 0 auto 79px auto;
+  padding: 0 54px;
+}
+@media only screen and (max-width: 350px) {
+  .user__img-wrapper {
+    padding: 0 24px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .user__img-wrapper {
+    max-width: 534px;
+    padding: 0;
+    margin: 0;
+    order: 2;
+  }
+}
+.user__img {
+  width: 100%;
+}
+.user__content-wrapper {
+  max-width: 520px;
+  margin: 0 auto;
+  color: var(--color-dark-cyan);
+}
+@media only screen and (min-width: 1150px) {
+  .user__content-wrapper {
+    margin: 0;
+  }
+}
+.user__h2 {
+  font-family: var(--popp);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .user__h2 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 26px;
+  }
+}
+.user__text {
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 27.5px;
+}
+@media only screen and (min-width: 768px) {
+  .user__text {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
