@@ -34,7 +34,15 @@
     }
 
     &__bg-bottom {
-        margin-bottom: 60px;
+        margin-bottom: 130px;
+
+        @media only screen and (min-width: 768px) {
+            margin-bottom: 150px;
+        }
+
+        @media only screen and (min-width: 1150px) {
+            margin-bottom: 195px;
+        }
     }
 
     &__img-wrapper {
@@ -43,7 +51,7 @@
         padding: 0 40px;
 
         @media only screen and (min-width: 768px) {
-            max-width: 640px;
+            max-width: 600px;
         }
 
         @media only screen and (min-width: 1150px) {

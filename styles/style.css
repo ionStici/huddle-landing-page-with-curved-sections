@@ -345,7 +345,17 @@ button {
   }
 }
 .grow__bg-bottom {
-  margin-bottom: 60px;
+  margin-bottom: 130px;
+}
+@media only screen and (min-width: 768px) {
+  .grow__bg-bottom {
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .grow__bg-bottom {
+    margin-bottom: 195px;
+  }
 }
 .grow__img-wrapper {
   max-width: 500px;
@@ -354,7 +364,7 @@ button {
 }
 @media only screen and (min-width: 768px) {
   .grow__img-wrapper {
-    max-width: 640px;
+    max-width: 600px;
   }
 }
 @media only screen and (min-width: 1150px) {
@@ -406,6 +416,90 @@ button {
 @media only screen and (min-width: 1150px) {
   .grow__text {
     padding: 0;
+  }
+}
+
+.flow {
+  text-align: center;
+  margin-bottom: 120px;
+}
+@media only screen and (min-width: 1150px) {
+  .flow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto 111px auto;
+    text-align: left;
+  }
+}
+.flow__img-wrapper {
+  max-width: 530px;
+  padding: 0 55px;
+  margin: 0 auto 85px auto;
+}
+@media only screen and (max-width: 350px) {
+  .flow__img-wrapper {
+    padding: 0 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flow__img-wrapper {
+    max-width: 640px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .flow__img-wrapper {
+    max-width: 530px;
+    padding: 0;
+    margin: 0;
+  }
+}
+.flow__img {
+  width: 100%;
+}
+.flow__content-wrapper {
+  color: var(--color-dark-cyan);
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+@media only screen and (min-width: 768px) {
+  .flow__content-wrapper {
+    max-width: 520px;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .flow__content-wrapper {
+    margin: 0;
+  }
+}
+.flow__h2 {
+  font-family: var(--popp);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .flow__h2 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 26px;
+  }
+}
+.flow__text {
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+@media only screen and (min-width: 768px) {
+  .flow__text {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
