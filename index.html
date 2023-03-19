@@ -23,6 +23,7 @@
         </title>
 
         <link rel="stylesheet" href="./styles/style.css" />
+        <script type="module" src="./js/main.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -224,18 +225,24 @@
                         ultrices quis sem.
                     </p>
 
-                    <ul>
-                        <li>
-                            <img src="./images/icon-phone.svg" alt="" />
-                            <a href="">Phone: +1-543-123-4567</a>
-                        </li>
-                        <li>
-                            <img src="./images/icon-email.svg" alt="" />
-                            <a href="">example@huddle.com</a>
-                        </li>
-                    </ul>
+                    <address>
+                        <ul class="footer__ul-contact">
+                            <li>
+                                <img src="./images/icon-phone.svg" alt="" />
+                                <a href="tel:+1-543-123-4567"
+                                    >Phone: +1-543-123-4567</a
+                                >
+                            </li>
+                            <li>
+                                <img src="./images/icon-email.svg" alt="" />
+                                <a href="mailto:example@huddle.com"
+                                    >example@huddle.com</a
+                                >
+                            </li>
+                        </ul>
+                    </address>
 
-                    <ul>
+                    <ul class="footer__ul-social">
                         <li><ion-icon name="logo-facebook"></ion-icon></li>
                         <li><ion-icon name="logo-instagram"></ion-icon></li>
                         <li><ion-icon name="logo-twitter"></ion-icon></li>
@@ -250,9 +257,10 @@
                         pass on your email address
                     </p>
 
-                    <form>
-                        <input type="text" />
-                        <button>Subscribe</button>
+                    <form class="footer__form">
+                        <input class="footer__input" type="text" />
+                        <button class="footer__btn">Subscribe</button>
+                        <p class="footer__form-message"></p>
                     </form>
                 </div>
             </div>
