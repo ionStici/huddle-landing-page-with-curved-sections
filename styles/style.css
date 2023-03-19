@@ -7,6 +7,7 @@
   --color-light-red: hsl(0, 100%, 63%);
   --color-dark-cyan: hsl(192, 100%, 9%);
   --color-pale-blue: hsl(207, 100%, 98%);
+  --color-pale-blue-2: hsla(208, 100%, 98%, 1);
   --color-gray: hsla(208, 12%, 55%, 1);
 }
 
@@ -239,7 +240,7 @@ button {
 
 .stats {
   max-width: 160px;
-  margin: 0 auto;
+  margin: 0 auto 32px auto;
   font-family: var(--sans);
   text-align: center;
 }
@@ -255,6 +256,7 @@ button {
 @media only screen and (min-width: 1150px) {
   .stats {
     padding: 0;
+    margin-bottom: 140px;
   }
 }
 .stats__col-1 {
@@ -308,8 +310,103 @@ button {
   }
 }
 
-.stats {
-  margin-bottom: 200px !important;
+.grow {
+  position: relative;
+  background-color: var(--color-pale-blue);
+  padding: 60px 0;
+  text-align: center;
+}
+@media only screen and (min-width: 1150px) {
+  .grow {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 70px 0 20px 0;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .grow__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1260px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}
+.grow__bg-top, .grow__bg-bottom {
+  width: 100%;
+  display: flex;
+}
+@media only screen and (min-width: 1150px) {
+  .grow__bg-top, .grow__bg-bottom {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+.grow__bg-bottom {
+  margin-bottom: 60px;
+}
+.grow__img-wrapper {
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+  padding: 0 40px;
+}
+@media only screen and (min-width: 768px) {
+  .grow__img-wrapper {
+    max-width: 640px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .grow__img-wrapper {
+    order: 2;
+  }
+}
+.grow__img {
+  width: 100%;
+}
+.grow__content-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  color: var(--color-dark-cyan);
+}
+@media only screen and (min-width: 1150px) {
+  .grow__content-wrapper {
+    order: 1;
+    padding-bottom: 100px;
+  }
+}
+.grow__h2 {
+  font-family: var(--popp);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .grow__h2 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 26px;
+  }
+}
+.grow__text {
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 28px;
+}
+@media only screen and (min-width: 768px) {
+  .grow__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .grow__text {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

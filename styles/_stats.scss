@@ -1,6 +1,6 @@
 .stats {
     max-width: 160px;
-    margin: 0 auto;
+    margin: 0 auto 32px auto;
 
     font-family: var(--sans);
     text-align: center;
@@ -16,6 +16,7 @@
 
     @media only screen and (min-width: 1150px) {
         padding: 0;
+        margin-bottom: 140px;
     }
 
     &__col-1 {
@@ -70,8 +71,4 @@
             line-height: 36px;
         }
     }
-}
-
-.stats {
-    margin-bottom: 200px !important;
 }
