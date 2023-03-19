@@ -192,26 +192,79 @@
                 />
             </picture>
 
-            <section class="cta" style="text-align: center">
+            <section class="cta">
                 <h2 class="cta__h2">Ready To Build Your Community?</h2>
                 <a class="link" href=".">Get Started For Free</a>
             </section>
         </main>
 
-        <footer class="footer" style="padding-bottom: 500px"></footer>
+        <picture>
+            <source
+                srcset="./images/bg-footer-top-mobile.svg"
+                media="(max-width: 1149px)"
+            />
+            <img
+                class="footer__bg-bottom"
+                src="./images//bg-footer-top-desktop.svg"
+                alt=""
+            />
+        </picture>
 
-        <!--     
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-        vestibulum a, ultrices quis sem.
-        
-        Phone: +1-543-123-4567
-        example@huddle.com
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__col-1">
+                    <img
+                        class="footer__logo"
+                        src="./images/logo.svg"
+                        alt="Logo"
+                    />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris nulla quam, hendrerit lacinia vestibulum a,
+                        ultrices quis sem.
+                    </p>
 
-        Newsletter
-        To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-        send you spam or pass on your email address
+                    <ul>
+                        <li>
+                            <img src="./images/icon-phone.svg" alt="" />
+                            <a href="">Phone: +1-543-123-4567</a>
+                        </li>
+                        <li>
+                            <img src="./images/icon-email.svg" alt="" />
+                            <a href="">example@huddle.com</a>
+                        </li>
+                    </ul>
 
-        Subscribe 
-        -->
+                    <ul>
+                        <li><ion-icon name="logo-facebook"></ion-icon></li>
+                        <li><ion-icon name="logo-instagram"></ion-icon></li>
+                        <li><ion-icon name="logo-twitter"></ion-icon></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col-2">
+                    <h2>Newsletter</h2>
+                    <p>
+                        To recieve tips on how to grow your community, sign up
+                        to our weekly newsletter. We’ll never send you spam or
+                        pass on your email address
+                    </p>
+
+                    <form>
+                        <input type="text" />
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
     </body>
 </html>

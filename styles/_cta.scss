@@ -1,0 +1,30 @@
+.cta {
+    text-align: center;
+    padding: 0 24px;
+    margin-bottom: 251px;
+
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 200px;
+    }
+
+    @media only screen and (min-width: 1150px) {
+        margin-bottom: 178px;
+    }
+
+    &__h2 {
+        font-family: var(--popp);
+        color: var(--color-dark-cyan);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+
+        margin-bottom: 40px;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 40px;
+            line-height: 60px;
+
+            margin-bottom: 42px;
+        }
+    }
+}
