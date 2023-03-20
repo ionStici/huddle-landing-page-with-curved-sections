@@ -10,9 +10,17 @@ const render = () => (message.style.display = 'revert');
 const submit = function (e) {
     e.preventDefault();
 
-    // corr();
-    // wrong();
-    // render();
+    if (input.value) {
+        corr();
+        render();
+        return;
+    }
+
+    if (!input.value) {
+        wrong();
+        render();
+        return;
+    }
 };
 
 form.addEventListener('submit', submit);
